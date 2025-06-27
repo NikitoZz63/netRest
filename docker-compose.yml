@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  app11:
+    build:
+      context: .
+    image: 'myapp1:latest'
+    ports:
+      - '8081:8080'
